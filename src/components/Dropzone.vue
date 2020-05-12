@@ -153,7 +153,7 @@ export default CommonDropzone;
 .common-dropzone {
   .dropzone {
     font-family: unset;
-    @apply bg-transparent border-dashed rounded-lg flex justify-center items-center;
+    @apply bg-transparent border-dashed border-white rounded-lg flex justify-center items-center;
     &.is-dragging {
       @apply bg-blue-800;
     }
