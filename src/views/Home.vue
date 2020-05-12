@@ -1,18 +1,17 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+.home
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api';
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld,
-  },
-};
+const Home = defineComponent({
+  // setup() {},
+});
+
+export default Home;
 </script>
+
+<style lang="scss">
+// .home {}
+</style>
